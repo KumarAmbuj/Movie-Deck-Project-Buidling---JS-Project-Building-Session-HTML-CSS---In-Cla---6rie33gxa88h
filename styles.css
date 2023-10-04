@@ -4,7 +4,7 @@
 body{
     margin:0;
     padding:0;
-    background-color: rgb(221, 217, 217);
+    background-color: rgb(175, 171, 171);
     
 }
 .header{
@@ -34,8 +34,7 @@ body{
     font-weight: 400;
     padding-left: 20px;
     border:1px solid black;
-    border: none;
-    outline: none;
+    background-color: rgb(243, 238, 238);
     
 }
 .searchBar button{
@@ -83,10 +82,12 @@ body{
     padding:5px 15px;
     border-radius: 10px;
     width:100px;
+    
+   
 }
 .active-tab{
     background-color: black;
-    color: rgb(219, 212, 212);
+    color: rgb(243, 237, 237);
 }
 .movieSection{
     width:85%;
@@ -107,7 +108,7 @@ body{
     margin-top: 10px;
     
     width:200px;
-    box-shadow: 7px 7px 7px rgb(160, 158, 158);
+    box-shadow: -4px 6px  6px rgb(97, 96, 96);
    /* border:2px solid grey;*/
    background-color: white;
     border-radius: 10px;
@@ -123,7 +124,7 @@ body{
 .movieCard:hover{
   transform: scale(1.02);
   box-shadow: 7px 7px 7px grey;
-  transition: 0.7s;
+  transition: 0.5s;
  
   
  
