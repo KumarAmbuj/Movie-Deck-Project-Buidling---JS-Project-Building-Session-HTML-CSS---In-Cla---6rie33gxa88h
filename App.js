@@ -48,8 +48,12 @@ function displayMovies(data) {
         <div class="movieName">${val.title}</div>
         <div class="rating">
           <div>
-            <div class="vote">vote: ${val.vote_count}</div>
-            <div class="vote">rating: ${val.vote_average}</div>
+            <div class="vote">vote: <span class="bold">${
+              val.vote_count
+            }</span></div>
+            <div class="vote">rating: <span class="bold">${
+              val.vote_average
+            }</span></div>
           </div>
           <div>
             <i class="fa ${
