@@ -118,6 +118,7 @@ body{
    
     padding:8px;
     position: relative;
+    cursor: pointer;
     
     
 }
@@ -131,6 +132,7 @@ body{
   .movieImage{
     transform: scale(1.05);
     transition: 0.5s;
+   
 }
   
  
